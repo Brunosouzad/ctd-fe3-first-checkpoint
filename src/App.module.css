@@ -1,0 +1,71 @@
+.form{
+  padding: 20px;
+  height: 309px;
+  width: 1200px;
+  border-radius: 12px;
+  background: #292929; 
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.form h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.form .containerInputs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.form div div label{
+  font-weight: 500;
+  color: #FFFFFF99;
+}
+
+.form div div input{
+  font-size: 16px;
+  height: 48px;
+  width: 558px;
+  left: 32px;
+  top: 232px;
+  border-radius: 12px;
+  background: #353535;
+  color: #FFFFFF;
+} 
+
+.form .buttonEnvio{
+  align-self: flex-end;
+  height: 57px;
+  width: 231px;
+  border-radius: 12px;
+  margin-top: 32px;
+  margin-right: 16px;
+  background: #36CE7C;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.boxTitulo{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 900;
+  color: #130f0f;
+}
+
+.containerCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-row-gap: 30px;
+  grid-column-gap: 0px;
+}

@@ -1,0 +1,49 @@
+.formError{
+    width: 1200px;
+    height: 309px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #FF7070;
+    background: #221515;
+}
+
+.formError h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+  
+.formError .containerInputs{
+    display: flex;
+    justify-content: space-around;
+}
+  
+.formError div div label{
+    font-weight: 500;
+    color: #FFFFFF99;
+}
+  
+.formError div div input{
+    width: 562px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #FF7070;
+    background: #473434;
+} 
+  
+.formError .buttonEnvio{
+    align-self: flex-end;
+    height: 57px;
+    width: 231px;
+    border-radius: 12px;
+    margin-top: 32px;
+    background: #416250;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.tituloError {
+    color: #FF7070;
+}
